@@ -1,0 +1,45 @@
+.title{
+	padding: 10px;
+	background-color: #2a699f;
+	font-size: x-large;
+	color: white;
+}
+.footer{
+	padding: 5px;
+	text-align: center;
+	background-color: #2a699f;
+	font-size:large;
+	color: white;
+}
+body {
+	height: auto;
+	min-height: 900px;
+	padding: 15px;
+	
+    background-image:url(img/car1.jpg);
+    background-repeat: no-repeat;
+
+    background-size:  1583px 900px;
+    background-color: rgb(0, 0, 77,0.1);
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
